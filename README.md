@@ -1,1 +1,1 @@
-# Nakup-Kripto-valute-s-pomo-jo-sentimentalne-analize
+# Nakup-Kripto-valute-s-pomocjo-sentimentalne-analize
