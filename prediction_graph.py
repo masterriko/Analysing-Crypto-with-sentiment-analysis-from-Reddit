@@ -191,9 +191,9 @@ fontsize="x-large"
 # x-axis label
 plt.xlabel("Authors")
 # frequency label
-plt.ylabel("Nummber of sentiment positive posts")
+plt.ylabel("Nummber of accurate sentiment positive posts")
 # plot title
-plt.title("Graph positive-posts/best-authors")
+plt.title("Graph accurate-posts/best-authors")
 # function to show the plot
 plt.show()
 
