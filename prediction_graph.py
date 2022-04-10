@@ -45,29 +45,32 @@ with open("SentimentReversed.csv", mode = "r", encoding = "utf-8") as file:
     data1 = list(csv_reader)
 
 for i, d in enumerate(data1):
-    if i > begin:
-        if parameter == "None":
-            if d[0][:-2].isdigit():
-                post_time.append(int(d[0][:-2]))
-                post_score_title.append(float(d[7]))
-                post_score_text.append(float(d[8]) if len(d[8]) != 0 else None)
-                post_author.append(d[2])
-        else:
-            if parameter in ["Score", "Comments", "ScoreTitle", "ScoreSelfText"]:
-                if float(d[columns[parameter]]) > value:
+    try:
+        if i > begin:
+                if parameter == "None":
                     if d[0][:-2].isdigit():
                         post_time.append(int(d[0][:-2]))
                         post_score_title.append(float(d[7]))
                         post_score_text.append(float(d[8]) if len(d[8]) != 0 else None)
                         post_author.append(d[2])
-            
-                        
-            elif d[columns[parameter]] == value:
-                    if d[0][:-2].isdigit():
-                        post_time.append(int(d[0][:-2]))
-                        post_score_title.append(float(d[7]))
-                        post_score_text.append(float(d[8]) if len(d[8]) != 0 else None)
-                        post_author.append(d[2])
+                else:
+                    if parameter in ["Score", "Comments", "ScoreTitle", "ScoreSelfText"]:
+                        if float(d[columns[parameter]]) > value:
+                            if d[0][:-2].isdigit():
+                                post_time.append(int(d[0][:-2]))
+                                post_score_title.append(float(d[7]))
+                                post_score_text.append(float(d[8]) if len(d[8]) != 0 else None)
+                                post_author.append(d[2])
+
+
+                    elif d[columns[parameter]] == value:
+                            if d[0][:-2].isdigit():
+                                post_time.append(int(d[0][:-2]))
+                                post_score_title.append(float(d[7]))
+                                post_score_text.append(float(d[8]) if len(d[8]) != 0 else None)
+                                post_author.append(d[2])
+    except:
+        continue
     if i > storage:
         break
 
