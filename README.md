@@ -21,4 +21,4 @@ Creating a bot from the data we gathered that uses deep learning to predict the 
 
 
 ### Link to video description of the project:
-* <https://youtu.>
+* <https://youtu.be/T3MVfLHDLcA>
