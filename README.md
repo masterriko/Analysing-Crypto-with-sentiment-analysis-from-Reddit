@@ -20,8 +20,9 @@ Creating a bot from the data we gathered that uses deep learning to predict the 
 - Analysis and visualisation using matplotlib
 
 ### Link to shorter video description of the project 
-( We strongly suggest to also take a look at the longer presentation bellow )
 * <https://youtu.be/aVGUlsw4Vf0>
+
+(We strongly suggest to also take a look at the longer presentation bellow)
 
 ### Link to video description of the project:
 * <https://youtu.be/T3MVfLHDLcA>
