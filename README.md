@@ -19,10 +19,5 @@ Creating a bot from the data we gathered that uses deep learning to predict the 
 - Sentiment analysis using [flair framework for state-of-the-art NLP ](https://github.com/flairNLP/flair)
 - Analysis and visualisation using matplotlib
 
-### Link to shorter video description of the project 
+### Link to video description of the project 
 * <https://youtu.be/aVGUlsw4Vf0>
-
-(We strongly suggest to also take a look at the longer presentation bellow)
-
-### Link to video description of the project:
-* <https://youtu.be/T3MVfLHDLcA>
